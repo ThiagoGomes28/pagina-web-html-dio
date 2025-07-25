@@ -1,0 +1,18 @@
+.tables-row {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+table {
+      flex: 1;
+      min-width: 200px;
+    }
+
+th, td {
+      border: 1px solid #999;
+      text-align: center;
+    }
+    th {
+      background: #f2f2f2;
+    }
